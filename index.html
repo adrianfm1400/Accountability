@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mi página web sencilla</title>
+	  <title>Ejemplo de página web</title>
   </head>
   <body>
-    <h1>Bienvenido a mi página web sencilla</h1>
-    <p>Esta es una página web básica creada en Google Scripts.</p>
+	  <h1>Bienvenido a mi página web</h1>
+	  <p>Haz clic en el botón para cambiar el color de fondo:</p>
+  	<button onclick="cambiarColor()">Cambiar color</button>
+	
+	  <script>
+		  function cambiarColor() {
+			  document.body.style.backgroundColor = "yellow";
+		  }
+	  </script>
   </body>
 </html>
